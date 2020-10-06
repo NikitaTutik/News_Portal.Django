@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{new.title}}</title>
+        {% load static %}
+<link rel="stylesheet" href="{% static 'css/base.css' %}"
+</head>
+<body>
+<h2>{{ new.title }}</h2>
+<p>{{ new.created }}</p>
+<p>{{new.text}}</p>
+
+<a target="_blank" href="/news/">Menu views</a> </body>
+</html>
